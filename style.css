@@ -10,6 +10,7 @@ body {
     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background: var(--darkblue);
   color: var(--blueText);
+  overflow: hidden;
 }
 
 h1 {
@@ -21,6 +22,23 @@ p {
   color: var(--whiteText);
 }
 
-ul {
-  list-style-type: none;
+.navProjects {
+  float: right;
+}
+
+.nav a {
+  text-decoration: none;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.nav {
+  width: 100%;
+  margin-left: 0;
+  background-color: green;
+}
+
+a:hover {
+  background-color: black;
+  color: var(--whiteText);
 }
