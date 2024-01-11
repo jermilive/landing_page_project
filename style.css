@@ -1,0 +1,10 @@
+:root {
+  --darkblue: rgb(32, 33, 49);
+  --blue: rgb(59 130 246);
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: var(--darkblue);
+  color: var(--blue);
+}
