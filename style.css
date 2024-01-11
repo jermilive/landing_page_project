@@ -1,10 +1,26 @@
 :root {
   --darkblue: rgb(32, 33, 49);
-  --blue: rgb(59 130 246);
+  --blueText: rgb(59 130 246);
+  --whiteText: #ffffff;
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background: var(--darkblue);
-  color: var(--blue);
+  color: var(--blueText);
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: var(--whiteText);
+}
+
+ul {
+  list-style-type: none;
 }
