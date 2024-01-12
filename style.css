@@ -68,13 +68,14 @@ p {
   margin: 0;
   padding: 0;
   background-color: var(--blueText);
-  border-radius: 0.3rem;
+  border-radius: 7px;
   width: 100%;
 }
 
 a:hover {
   background-color: lightcoral;
   color: var(--darkBlueBackground);
+  border-radius: 6px;
 }
 /* selector  property value */
 a {
