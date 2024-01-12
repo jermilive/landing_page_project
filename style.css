@@ -35,11 +35,6 @@ h2 {
   font-size: 1.3rem;
 }
 
-.para-content {
-  padding-left: 7%;
-  padding-right: 7%;
-}
-
 p {
   text-align: center;
   color: var(--whiteText);
@@ -49,24 +44,15 @@ p {
   float: right;
 }
 /* selector property value  */
-.nav a {
-  position: sticky;
+a {
   text-decoration: none;
-  left: 0;
-  overflow: hidden;
-  /* font-size: 2rem; */
-  /* margin-left: 1%; */
-  /* margin-right: 1%; */
-  /* color: #fff; */
   color: var(--navText);
-  margin: 0;
-  /* width: 100%; */
+  color: var(--navText);
+  font-size: 1.5em;
 }
 
 .nav {
   position: sticky;
-  margin: 0;
-  padding: 0;
   background-color: var(--blueText);
   border-radius: 7px;
   width: 100%;
@@ -77,14 +63,14 @@ a:hover {
   color: var(--darkBlueBackground);
   border-radius: 6px;
 }
-/* selector  property value */
-a {
-  color: var(--navText);
-  font-size: 1.5em;
-}
 
-.main-container {
+/* .main-container {
   margin: 0;
   padding: o;
   border: 0;
+} */
+
+.para-content {
+  padding-left: 7%;
+  padding-right: 7%;
 }
