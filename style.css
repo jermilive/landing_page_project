@@ -13,16 +13,76 @@ body {
   background: var(--darkBlueBackground);
   /* color: var(--blueText); */
   /* overflow: hidden; */
+  margin: 0;
 }
 
-/* ::first-letter: {
-  text
+/* ::grammar-error {
+  text-decoration: overline;
 } */
 
-::grammar-error {
-  text-decoration: overline;
+.navProjects {
+  float: right;
+}
+/* new navbar CSS code */
+#navbar {
+  overflow: hidden;
+  background: var(--blueText);
 }
 
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 10px;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #000;
+  color: white;
+}
+
+#navbar a.active {
+  background-color: blue;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+/* Old navbar CSS code */
+/* selector property value  */
+/* a {
+  float: left;
+  text-decoration: none;
+  display: block;
+  color: var(--navText);
+  color: var(--navText);
+  font-size: 1.5em;
+} */
+
+/* .nav {
+  position: sticky;
+  background-color: var(--blueText);
+  border-radius: 7px;
+  width: 100%;
+} */
+
+/* a:hover {
+  background-color: lightcoral;
+  color: var(--darkBlueBackground);
+  border-radius: 6px;
+} */
+
+/* .main-container {
+  margin: 0;
+  padding: o;
+  border: 0;
+} */
+
+/* ============== */
+/* ============== */
+/* header content */
 h1 {
   text-align: center;
   color: var(--blueText);
@@ -35,42 +95,19 @@ h2 {
   font-size: 1.3rem;
 }
 
-p {
-  text-align: center;
-  color: var(--whiteText);
-}
-
-.navProjects {
+#projectsLink {
   float: right;
 }
-/* selector property value  */
-a {
-  text-decoration: none;
-  color: var(--navText);
-  color: var(--navText);
-  font-size: 1.5em;
-}
-
-.nav {
-  position: sticky;
-  background-color: var(--blueText);
-  border-radius: 7px;
-  width: 100%;
-}
-
-a:hover {
-  background-color: lightcoral;
-  color: var(--darkBlueBackground);
-  border-radius: 6px;
-}
-
-/* .main-container {
-  margin: 0;
-  padding: o;
-  border: 0;
-} */
-
+/* ================= */
+/* ================= */
+/* ================= */
+/* paragragh content starts */
 .para-content {
   padding-left: 7%;
   padding-right: 7%;
+}
+
+p {
+  text-align: center;
+  color: var(--whiteText);
 }
