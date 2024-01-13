@@ -39,8 +39,9 @@ body {
 }
 
 #navbar a:hover {
-  background-color: #000;
-  color: white;
+  /* background-color: #000; */
+  background-color: var(--darkBlueBackground);
+  color: var(--navbar);
 }
 
 #navbar a.active {
